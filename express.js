@@ -17,6 +17,7 @@ var multi = (ml)=>{
     return arr;};
 
 var pal = (pl)=>{
+    pl = String(pl).toLowerCase();
     var pld = true;
     var start = 0, end = pl.length-1;
     while (start<end){
